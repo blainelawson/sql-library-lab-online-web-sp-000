@@ -3,7 +3,7 @@ CREATE TABLE series (
   title TEXT,
   author_id INTEGER,
   subgenre_id INTEGER
-)
+);
 
 CREATE TABLE subgenres (
   id INTEGER PRIMARY KEY,
@@ -29,10 +29,10 @@ CREATE TABLE characters (
   species TEXT,
   author_id INTEGER,
   series_id INTEGER
-)
+);
 
 CREATE TABLE character_books (
   id INTEGER PRIMARY KEY,
   book_id INTEGER,
   character_id INTEGER
-)
+);
